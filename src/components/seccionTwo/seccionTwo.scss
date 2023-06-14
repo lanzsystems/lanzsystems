@@ -1,0 +1,89 @@
+@import "../../styles/colors.scss";
+
+.seccion-two {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 50px 86px;
+  width: 100%;
+
+  .seccion-left {
+    width: 100%;
+    max-width: 50%;
+    text-align: left;
+
+    .title {
+      font-style: normal;
+      font-weight: 700;
+      font-size: 48px;
+      line-height: 124%;
+      text-align: left;
+      width: 668px;
+    }
+
+    .subtitle {
+      font-style: normal;
+      font-weight: 700;
+      font-size: 26px;
+      line-height: 146%;
+      color: $primary_100;
+      text-align: left;
+    }
+
+    .texto {
+      width: 80%;
+      
+      .text-one {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 146%;
+        margin-top: 20px;
+      }
+      .text-two {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 146%;
+        margin-top: 20px;
+        margin-bottom: 20px;
+      }
+    }
+
+    .botones {
+      display: flex;
+      gap: 20px;
+      .boton-registrate {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 16px 20px;
+        border-radius: 30px;
+        background: $primary_100;
+        color: $text_10;
+        width: 180px;
+        height: 59px;
+      }
+      .boton-sesion {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 16px 20px;
+        border-radius: 30px;
+        background: #cddaf4;
+        color: $primary_100;
+        width: 180px;
+        height: 59px;
+      }
+    }
+  }
+  .seccion-rigth {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-left: 5%;
+  }
+}
