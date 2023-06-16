@@ -1,0 +1,37 @@
+@import "../../styles/colors.scss";
+
+.seccion {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  .form {
+   
+    padding: 120px 84px;
+    text-align: left;
+    background: rgba(168, 94, 180, 0.1);
+  
+    .title {
+      font-style: normal;
+      font-weight: 700;
+      font-size: 48px;
+      line-height: 72px;
+    }
+    .input {
+        margin-top: 20px;
+    }
+    .boton-enviar {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 16px 20px;
+        border-radius: 30px;
+        background: $primary_100;
+        color: $text_10;
+        width: 180px;
+        height: 59px;
+        margin-top: 20px;
+      }
+  }
+}

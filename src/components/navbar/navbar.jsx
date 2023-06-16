@@ -13,10 +13,10 @@ const Navbar = props => {
     <Flex justify="space-between" align="center">
     <img src={Logo} alt="Logo" />
       <Flex className='opciones'>
-        <Link className="secciones" href="/about" color={location.pathname === "/about" ? activeColor : inactiveColor} mr={4}>Inicio</Link>
-        <Link className="secciones" href="/services" mr={4}>Nosotros</Link>
-        <Link className="secciones" href="/contact" mr={4}>Videojuegos</Link>
-        <Link className="secciones" href="/contact" mr={4}>Contacto</Link>
+        <Link className="secciones" href="/" color={location.pathname === "/" ? activeColor : inactiveColor} mr={4}>Inicio</Link>
+        <Link className="secciones" href="/nosotros" color={location.pathname === "/nosotros" ? activeColor : inactiveColor} mr={4}>Nosotros</Link>
+        <Link className="secciones" href="/videojuegos" color={location.pathname === "/videojuegos" ? activeColor : inactiveColor} mr={4}>Videojuegos</Link>
+        <Link className="secciones" href="/contacto" color={location.pathname === "/contacto" ? activeColor : inactiveColor}  mr={4}>Contacto</Link>
         <Button className='boton-sesion' >Iniciar sesión</Button>
         <Button className='boton-cuenta'variant="solid">Abrir una cuenta</Button>
       </Flex>
